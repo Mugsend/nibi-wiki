@@ -1,5 +1,7 @@
-/* Apply a background color and border to the sections */
-/* Style the title */
+body {
+	font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+
 h1 {
 	background-color: #000080;
 	color: #ffffff;
@@ -9,7 +11,33 @@ h1 {
 	font-size: 24px;
 }
 
-/* Style the navigation links */
+h3 {
+	background-color: #c0c0c0;
+	color: #000080;
+	padding: 5px;
+	margin: 10px 0;
+	border-bottom: 1px solid #808080;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h4 {
+	color: #800000;
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+a {
+	color: #0000ff;
+	text-decoration: none;
+	border-bottom: 1px dotted #0000ff;
+	transition: border-bottom-color 0.3s ease;
+}
+
+a:hover {
+	border-bottom-color: transparent;
+}
+
 nav ul {
 	list-style-type: none;
 	padding: 0;
@@ -26,7 +54,6 @@ nav ul li a {
 	color: #000080;
 }
 
-/* Style the ordered and unordered lists */
 ol,
 ul {
 	margin-left: 20px;
@@ -49,7 +76,6 @@ section {
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Style the section headings */
 h2 {
 	background-color: #808080;
 	color: #ffffff;
@@ -60,7 +86,6 @@ h2 {
 	border-top-right-radius: 5px;
 }
 
-/* Style the code blocks */
 pre {
 	background-color: #f0f0f0;
 	border: 1px solid #d0d0d0;
@@ -69,19 +94,16 @@ pre {
 	overflow: auto;
 }
 
-/* Style the code snippets */
 code {
 	font-family: 'Courier New', monospace;
 	color: #000000;
 }
 
-/* Style emphasized text */
 em {
 	font-style: italic;
 	color: #800000;
 }
 
-/* Style the footer */
 footer {
 	text-align: center;
 	margin-top: 20px;
