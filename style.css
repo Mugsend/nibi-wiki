@@ -1,0 +1,91 @@
+/* Apply a background color and border to the sections */
+/* Style the title */
+h1 {
+	background-color: #000080;
+	color: #ffffff;
+	padding: 10px;
+	margin: 0;
+	border-bottom: 1px solid #000060;
+	font-size: 24px;
+}
+
+/* Style the navigation links */
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	margin: 0;
+	padding: 5px;
+	border-bottom: 1px solid #808080;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000080;
+}
+
+/* Style the ordered and unordered lists */
+ol,
+ul {
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+li {
+	margin: 5px 0;
+	padding: 0 0 0 20px;
+	line-height: 1.4;
+	list-style-position: inside;
+}
+
+section {
+	background-color: #c0c0c0;
+	border: 1px solid #808080;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the section headings */
+h2 {
+	background-color: #808080;
+	color: #ffffff;
+	padding: 5px 10px;
+	margin: -20px -20px 20px;
+	border-bottom: 1px solid #606060;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+/* Style the code blocks */
+pre {
+	background-color: #f0f0f0;
+	border: 1px solid #d0d0d0;
+	padding: 10px;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+/* Style the code snippets */
+code {
+	font-family: 'Courier New', monospace;
+	color: #000000;
+}
+
+/* Style emphasized text */
+em {
+	font-style: italic;
+	color: #800000;
+}
+
+/* Style the footer */
+footer {
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #d0d0d0;
+	border-top: 1px solid #808080;
+}
